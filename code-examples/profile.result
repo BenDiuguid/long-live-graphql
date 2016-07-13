@@ -1,0 +1,10 @@
+{
+  "me": {
+    "name": "Ben Diuguid",
+    "profilePicture": {
+      "width": 300,
+      "height": 300,
+      "url": "https://my.cdn/300.jpg"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+query getFewPosts($postCount: Int!) {
+  recentPosts(count: $postCount) {
+    title
+  }
+}
+
+# Query Variables
+# {
+#   "postCount": 5
+# }

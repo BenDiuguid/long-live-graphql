@@ -1,0 +1,25 @@
+{
+  "me": {
+    "name": "Ben Diuguid",
+    "friends": [
+      {
+        "name": "Joseph Cutrono"
+      },
+      {
+        "name": "Alicia Rodriguez"
+      },
+      {
+        "name": "Chris Cordle"
+      },
+      {
+        "name": "James McLaughlin"
+      },
+      {
+        "name": "Benjamin Botwin"
+      },
+      {
+        "name": "Cason Clagg"
+      }
+    ]
+  }
+}

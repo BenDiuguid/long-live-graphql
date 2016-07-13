@@ -1,0 +1,30 @@
+query ($lilPicSize: Int!, $bigPicSize: Int!, $friendCount: Int = 5) {
+  me {
+    name
+    lilPic: profilePicture(size: $lilPicSize) {
+      ...picFragment
+    }
+    bigPic: profilePicture(size: $bigPicSize) {
+      ...picFragment
+    }
+    friends(orderby: IMPORTANCE, first: $friendCount) {
+      name
+      events(first: 1) {
+        type
+      }
+    }
+  }
+}
+
+fragment picFragment on Picture {
+  width
+  height
+  url
+}
+
+# Query Variables
+# {
+#   "lilPicSize": 50    // required
+#   "bigPicSize": 300   // required
+#   "friendCount": 2    // optional
+# }

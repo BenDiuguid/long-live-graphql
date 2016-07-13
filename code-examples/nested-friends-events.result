@@ -1,0 +1,73 @@
+{
+  "me": {
+    "name": "Ben Diuguid",
+    "friends": [
+      {
+        "name": "Joseph Cutrono",
+        "events": [
+          {
+            "type": "Party"
+          },
+          {
+            "type": "Sports"
+          }
+        ]
+      },
+      {
+        "name": "Alicia Rodriguez",
+        "events": [
+          {
+            "type": "Festival"
+          },
+          {
+            "type": "Party"
+          }
+        ]
+      },
+      {
+        "name": "Chris Cordle",
+        "events": [
+          {
+            "type": "Concert"
+          },
+          {
+            "type": "Beach"
+          }
+        ]
+      },
+      {
+        "name": "James McLaughlin",
+        "events": [
+          {
+            "type": "Reading"
+          },
+          {
+            "type": "Books"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Botwin",
+        "events": [
+          {
+            "type": "Hacking"
+          },
+          {
+            "type": "Typing"
+          }
+        ]
+      },
+      {
+        "name": "Cason Clagg",
+        "events": [
+          {
+            "type": "VR"
+          },
+          {
+            "type": "AR"
+          }
+        ]
+      }
+    ]
+  }
+}

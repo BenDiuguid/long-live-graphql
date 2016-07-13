@@ -1,0 +1,30 @@
+const PersonType = new GraphQLObjectType({
+  name: 'Person',
+  description: 'This is a Person',
+
+  fields: () => ({
+    name: {
+      type: GraphQLString,
+      description: 'Name of Person' 
+    },
+    id: { type: GraphQLString }
+  })
+});
+
+const RootQueryType = new GraphQLObjectType({
+  name: 'Query',
+  description: 'Root query',
+
+  fields: () => ({
+    me: {
+      type: PersonType,
+      description: 'The logged in user',
+      resolve: (root, args, context) =>
+        fetchPerson( context.currentUserId)
+    }
+  })
+});
+
+export default new GraphQLSchema({
+  query: RootQueryType
+});

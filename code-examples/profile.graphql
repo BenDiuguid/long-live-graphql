@@ -1,0 +1,10 @@
+{
+  me {
+    name,
+    profilePicture(size: 300) {
+      width,
+      height,
+      url
+    }
+  }
+}

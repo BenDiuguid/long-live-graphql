@@ -1,0 +1,15 @@
+{
+  me {
+    name
+    friends {
+      ...friendFragment
+    }
+  }
+}
+
+fragment friendFragment on User {
+  name
+  events {
+    name
+  }
+}
