@@ -1,8 +1,0 @@
-{
-  me {
-    name,
-    friends {
-      name
-    }
-  }
-}

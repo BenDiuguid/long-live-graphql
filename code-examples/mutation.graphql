@@ -1,7 +1,0 @@
-mutation {
-  changeName(id: 1337, name: "Benjamin Diuguid") {
-    name
-    email
-    id
-  }
-}
