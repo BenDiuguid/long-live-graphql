@@ -54,9 +54,6 @@ const colors = {
   quartenary: "white",
   hilightColor: "#E9D24D"
 };
-// TODO: Practice live coding demo
-
-// TODO: DEPLOY
 
 const fonts = {
   primary: "Roboto Condensed",
