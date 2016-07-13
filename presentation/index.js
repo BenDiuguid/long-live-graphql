@@ -129,7 +129,7 @@ export default class Presentation extends React.Component {
             <Appear><Text textColor={colors.hilightColor}>We think in terms of the models we use in our apps</Text></Appear>
           </Slide>
 
-          <Slide bgImage={images.graphiql} bgDarken={0.30}>
+          <Slide bgImage={images.graphiql.replace("/", "")} bgDarken={0.30}>
             <Heading fit size={1}>GraphiQL</Heading>
           </Slide>
 
@@ -157,7 +157,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
-          <Slide  transition={["slide", "fade"]} bgImage={images.restVsGraphQL} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.05}  bgColor="#303030"/>
+          <Slide  transition={["slide", "fade"]} bgImage={images.restVsGraphQL.replace("/", "")} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.05}  bgColor="#303030"/>
 
           <Slide bgColor="black" transition={["slide", "fade"]}>
             <BlockQuote>
@@ -497,12 +497,12 @@ export default class Presentation extends React.Component {
             ]}
           />
 
-          <Slide bgImage={images.excitedAndy} bgDarken={0.10}>
+          <Slide bgImage={images.excitedAndy.replace("/", "")} bgDarken={0.10}>
             <Heading fit size={1}>Demo Time!</Heading>
             <Heading size={4} textColor={colors.primary}>[REST to GraphQL]</Heading>
           </Slide>
 
-          <Slide bgImage={images.gorillaShark} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.10} bgColor="#8ba1cb"/>
+          <Slide bgImage={images.gorillaShark.replace("/", "")} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.10} bgColor="#8ba1cb"/>
 
           <Slide>
             <Heading size={4}>How are we using GraphQL</Heading>
@@ -516,7 +516,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
-          <Slide bgImage={images.kyloApproves} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.05} />
+          <Slide bgImage={images.kyloApproves.replace("/", "")} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.05} />
 
           <Slide>
             <Heading lineHeight={1.3}>Common Questions</Heading>
@@ -568,7 +568,7 @@ export default class Presentation extends React.Component {
           </Slide>
 
 
-          <Slide transition={["slide", "fade"]} bgImage={images.graphQLATT} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.10} bgColor="white"/>
+          <Slide transition={["slide", "fade"]} bgImage={images.graphQLATT.replace("/", "")} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.10} bgColor="white"/>
 
           <Slide>
             <Heading size={1} fit caps color="white">Thanks</Heading>
