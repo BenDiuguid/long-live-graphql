@@ -564,14 +564,23 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
+          <Slide>
+            <Heading>GraphQL Clients</Heading>
+            <List>
+              <ListItem><Text><Link textColor={colors.hilightColor} target="_blank" href="https://github.com/facebook/relay">Relay</Link></Text></ListItem>
+              <ListItem><Text><Link textColor={colors.hilightColor} target="_blank" href="https://github.com/apollostack/apollo-client">Apollo</Link></Text></ListItem>
+              <ListItem><Text><Link textColor={colors.hilightColor} target="_blank" href="https://github.com/lokka/lokka">lokka</Link></Text></ListItem>
+            </List>
+          </Slide>
+
 
           <Slide transition={["slide", "fade"]} bgImage={images.graphQLATT.replace("/", "")} bgSize="contain" bgRepeat="no-repeat" bgDarken={0.10} bgColor="white"/>
 
-          <Slide>
-            <Heading size={1} fit caps color="white">Thanks</Heading>
-            <Heading size={6}>Handcoded with &lt;3 by Ben Diuguid</Heading>
+          <Slide bgColor="black">
+            <Heading size={1} fit caps>Thanks</Heading>
+            <Heading size={6} textColor={colors.primary}>Handcoded with &lt;3 by Ben Diuguid</Heading>
             <br/>
-            <Text lineHeight={1.3}>@BenDiuguid - All The Things</Text>
+            <Text lineHeight={1.3} textColor={colors.primary}>@BenDiuguid - All The Things</Text>
             <Text>
               <Link textColor={colors.hilightColor} target="_blank" href="https://github.com/BenDiuguid/">GitHub</Link> |
               <Link textColor={colors.hilightColor} target="_blank" href="https://twitter.com/BenDiuguid"> Twitter </Link> |
@@ -579,7 +588,7 @@ export default class Presentation extends React.Component {
             </Text>
             <br/>
             <Text lineHeight={1.6}>Any Questions?</Text>
-            <Text>[Presentation made with <Link textColor={colors.hilightColor} target="_blank" href="https://github.com/FormidableLabs/spectacle">SpectacleJS</Link>]</Text>
+            <Text textColor={colors.primary}>[Presentation made with <Link textColor={colors.hilightColor} target="_blank" href="https://github.com/FormidableLabs/spectacle">SpectacleJS</Link>]</Text>
             <Text><Link textColor={colors.hilightColor} target="_blank" href="https://bendiuguid.github.io/long-live-graphql">bendiuguid.github.io/long-live-graphql</Link></Text>
           </Slide>
         </Deck>
