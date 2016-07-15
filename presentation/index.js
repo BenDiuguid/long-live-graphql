@@ -466,7 +466,7 @@ export default class Presentation extends React.Component {
               { loc: [17, 37], note: "Mutation" },
               { loc: [18, 20], note: "name and description" },
               { loc: [20, 33], note: "Each field is a mutation" },
-              { loc: [21, 22], note: "createPost mutation" },
+              { loc: [21, 22], note: "createPerson mutation" },
               { loc: [22, 23], note: "This is the return type" },
               { loc: [23, 29], note: "arguments" },
               { loc: [29, 34], note: "resolve (it's just a function)" },
